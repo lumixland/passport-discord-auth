@@ -1,3 +1,12 @@
+> [!WARNING]
+> **This repository has been archived.**  
+> It was only used temporarily for our authentication flow.  
+> We’ve since migrated to our own package — [**disauth**](https://github.com/lumixland/disauth).  
+>  
+> No further updates or maintenance will be provided here.
+
+---
+
 <div align="center">
 
 [![Discord Auth Banner](https://i.imgur.com/mnqbOIl.png)](https://github.com/slekup/passport-discord-auth)
@@ -140,3 +149,4 @@ passport.use(
 - `Scope.RpcVoiceWrite` or `rpc.voice.write` - For local rpc server access, this allows you to update a user's voice settings - requires Discord approval.
 - `Scope.Voice` or `voice` - Allows your app to connect to voice on user's behalf and see all the voice members - requires Discord approval.
 - `Scope.WebhookIncoming` or `webhook.incoming` - This generates a webhook that is returned in the oauth token response for authorization code grants.
+
